@@ -59,10 +59,8 @@ namespace EmployeeRegistration.Models
         [DisplayName("Gender")]
         public string Gender { get; set; }
 
-        [Required]
         public System.DateTime CreatedOn { get; set; }
-
-        [Required]
+                
         public System.DateTime ModifiedOn { get; set; }
     }
 }
